@@ -1,0 +1,115 @@
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: 271px;
+  top: 4094px;
+  background: #B3ACDA;
+
+  .footer__container{
+    display: flex;
+
+    .footer__container__info {
+      position: absolute;
+      width: 214px;
+      height: 26px;
+      left: 74px;
+      top: 28px;
+      font-family: Futura PT;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #FEFEFE;
+    }
+
+    .footer__container__langue {
+      position: absolute;
+      width: 254px;
+      height: 26px;
+      left: 507px;
+      top: 28px;
+      font-family: Futura PT;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #FEFEFE;
+    }
+
+    .footer__container__ambassadeur{
+      position: absolute;
+      width: 254px;
+      height: 26px;
+      left: 981px;
+      top: 28px;
+      font-family: Futura PT;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #FEFEFE;
+    }
+    .footer__container__info__text {
+      position: absolute;
+      top: 94px;
+      left: 73px;
+      font-family: Futura PT;
+      font-style: normal;
+      color: white;
+      
+      .footer__container__info__text__2 {
+        margin-top: 10px;
+      }
+
+      .footer__container__info__text__3 {
+        margin-top: 10px;
+      }
+    }
+    
+
+    .footer__container__langue__text{
+      position: absolute;
+      top: 101px;
+      left: 517px;
+      li {
+        display: inline;
+        font-family: Futura PT;
+        font-style: normal;
+        color: white;
+      }
+      
+    }
+
+    .footer__container__sous-footer{
+      position: absolute;
+      width: 100vw;
+      height: 38px;
+      top: 233px;
+      background: #817AA9;
+
+      .footer__container__sous-footer__text {
+        position: absolute;
+        width: 56px;
+        height: 15px;
+        left: 120px;
+        top: 11px;
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 15px;
+        color: #413D57;
+      }
+
+      .footer__container__sous-footer__text2 {
+        position: absolute;
+        top: 11px;
+        left: 868px;
+        font-family: Futura PT;
+        font-style: normal;
+        color: #413D57;
+        opacity: 0.6;
+      }
+    }
+  }
+}
