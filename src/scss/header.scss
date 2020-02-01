@@ -1,0 +1,118 @@
+.header {
+  position: absolute;
+  width: 1206px;
+  height: 34px;
+  left: 82px;
+  top: 39px;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+
+  position: absolute;
+  width: 556px;
+  height: 22px;
+  left: 213px;
+  top: 6px;
+}
+.header__container__accueil {
+  position: static;
+  width: 50px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #060606;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 70px 0px;
+}
+.header__container__notre-produit {
+  position: absolute;
+  width: 95px;
+  height: 160px;
+  left: 120px;
+
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #060606;
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin: 70px 0px;
+}
+.header__container__personnalisation {
+  position: absolute;
+  width: 111px;
+  height: 160px;
+  left: 281px;
+
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #060606;
+
+  flex: none;
+  order: 2;
+  align-self: center;
+  margin: 70px 0px;
+}
+.header__container__collaboration {
+  position: absolute;
+  width: 94px;
+  height: 160px;
+  left: 462px;
+
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #060606;
+
+  flex: none;
+  order: 3;
+  align-self: center;
+  margin: 70px 0px;
+}
+.header__container__logo__image {
+  position: absolute;
+  width: 57px;
+  height: 34px;
+
+  font-family: Sand Beach;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #000000;
+}
+.header__container__logo__panier {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  left: 1130px;
+}
+.header__container__logo_connexion {
+  position: absolute;
+  width: 25px;
+  left: 1180px;
+}
