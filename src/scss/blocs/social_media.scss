@@ -1,0 +1,27 @@
+.social-media {
+  margin-top: 110px;
+}
+.social-media__title {
+  margin-left: 80px;
+}
+
+.social-media__pictures {
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    margin-top: 50px;
+  }
+}
+.social-media__button {
+  margin-top: 60px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #060606;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 40%;
+}

@@ -1,12 +1,8 @@
-@import "reset";
-
-
-
-@import "header";
-
-@import "hero";
-@import "collab";
-@import "concept";
-@import "values";
-
-@import "footer";
+@import "vendors/reset.scss";
+@import "blocs/header.scss";
+@import "blocs/hero.scss";
+@import "blocs/collab.scss";
+@import "blocs/concept.scss";
+@import "blocs/values.scss";
+@import "blocs/social_media.scss";
+@import "blocs/footer.scss";
