@@ -1,52 +1,36 @@
-.header {
-  position: absolute;
+body{
+  font-family: Futura PT;
+}
+
+
+.header{
+  display: flex;
   width: 100vw;
-  height: 36px;
-  left: 79px;
-  top: 26.55px;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 500;
+}
+
+
+.header__navbar{
+a{
+  text-decoration: none;
+  color: #060606;
+}
+  li{
   
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+  }
+}
 
-  .header__navbar {
-    width: 100vw;
-    li {
-      position: absolute;
-      display: inline;
-      font-family: Futura PT;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 17px;
-      line-height: 22px;
-      top: 5px;
 
-        a{
-          text-decoration: none;
-        color: black;
-        }
-      }
-      .header__navbar__logo {
-        position: absolute;
-        top: -5px;
-        
-      }
-
-      
-      .header__navbar__Accueil {
-        left: 135px;
-      }
-        .header__navbar__Produit {
-        left: 245px;
-      }
-      .header__navbar__Perso {
-        left: 400px;
-      }
-      .header__navbar__Collab {
-        left: 575px;
-      }
-      .header__navbar__Panier {
-        right: 170px;
-      }
-      .header__navbar__Compte {
-        right: 120px;
-      }
+.header__icons{
+  margin-left: 340px;
+  li{
+    display: inline;
+    padding-left: 20px;
   }
 }
