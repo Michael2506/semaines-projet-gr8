@@ -1,10 +1,7 @@
 .header {
-  position: absolute;
   width: 100vw;
   height: 36px;
-  left: 79px;
   top: 26.55px;
-  
 
   .header__navbar {
     width: 100vw;
@@ -16,7 +13,7 @@
       font-weight: 500;
       font-size: 17px;
       line-height: 22px;
-      top: 5px;
+      top: 26px;
 
         a{
           text-decoration: none;
@@ -26,27 +23,28 @@
       .header__navbar__logo {
         position: absolute;
         top: -5px;
+        left: 75px;
         
       }
 
       
       .header__navbar__Accueil {
-        left: 135px;
+        left: 180px;
       }
         .header__navbar__Produit {
-        left: 245px;
+        left: 300px;
       }
       .header__navbar__Perso {
-        left: 400px;
+        left:  450px;
       }
       .header__navbar__Collab {
-        left: 575px;
+        left: 620px;
       }
       .header__navbar__Panier {
-        right: 170px;
+        right: 90px;
       }
       .header__navbar__Compte {
-        right: 120px;
+        right: 40px;
       }
   }
 }
