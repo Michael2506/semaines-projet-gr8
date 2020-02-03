@@ -1,0 +1,54 @@
+$primary-position: absolute;
+
+.page__collab {
+  position: $primary-position;
+  width: 1093px;
+  height: 433.58px;
+  left: 137px;
+  top: 1571px;
+
+  .page__collab__texte {
+    position: $primary-position;
+    width: 710px;
+    height: 131px;
+    left: 380px;
+    top: 180px;
+
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 179.69%;
+
+    color: #414141;
+  }
+  .page__collab__photo {
+    position: $primary-position;
+    top: 60px;
+  }
+  .page__collab__titre {
+    position: $primary-position;
+
+    left: 375px;
+  }
+  .bouton-collab {
+    position: $primary-position;
+    top: 385px;
+    left: 435px;
+    letter-spacing: 0.5px;
+    align-self: center;
+
+    .bouton-collab__decouvrir {
+      font-family: Futura PT;
+      font-style: normal;
+      font-weight: 800;
+      left: 83px;
+      color: white;
+      background-color: black;
+      border-radius: 30px;
+      width: 180px;
+      height: 47px;
+      border: none;
+    }
+  }
+}
