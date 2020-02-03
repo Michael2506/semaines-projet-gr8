@@ -65,3 +65,48 @@
       }
 } */
 
+
+.hero__season{
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.hero__title{
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.hero__description{
+  width: 450px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+
+.hero__buttons-hero__buttons--dark{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  height: 30px;
+  width: 215px;
+  margin-top: 20px;
+  margin-left: 70px;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.hero__buttons-hero__buttons--pink{
+  background-color:pink;
+  color: white;
+  border-radius: 30px;
+  height: 30px;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 50px;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
