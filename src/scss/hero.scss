@@ -1,69 +1,6 @@
-/*   $primary-color-button: black;
-  $primary-color-text: #414141;
-  
-  .page__accueil__titre {
-    position: absolute;
-    top: 118px;
-    left: 75px;
-  }
-
-  .page__accueil__titre-produit{
-  position: absolute;
-  font-family: Futura PT;
-  font-weight: bold;
-  font-size: 65px;
-  top: 208px;
-  left: 75px;
-  }
-
-  .page__accueil__text{
-    position: absolute;
-    font-family: Futura PT;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    width: 500px;
-    top: 300px;
-    left: 75px;
-    font-size: 20px;
-    color: $primary-color-text;
-  }
-    .boutons-accueil {
-      position: absolute;
-      top: 450px;
-      left: 70px;
-      letter-spacing: 0.5px;
-      align-self: center;
-
-      
-      .bouton-accueil__personnalisation{
-        font-family: Futura PT;
-        font-style: normal;
-        font-weight: 800;
-        left: 83px;
-        color: white;
-        background-color: $primary-color-button;
-        border-radius: 30px;
-        width: 277px;
-        height: 47px;
-        border: none;
-  }
-
-      .bouton-accueil__savoir-plus{
-        font-family: Futura PT;
-        font-style: normal;
-        font-weight: 800;
-        left: 350px;
-        color: white;
-        background-color: pink;
-        border-radius: 30px;
-        width: 196px;
-        height: 47px;
-        border: none;
-        margin-left: 38px;
-      }
-} */
+.hero {
+  margin-top: 10px; 
+}
 
 
 .hero__season{
@@ -85,28 +22,21 @@
 }
 
 
-.hero__buttons-hero__buttons--dark{
-  background-color: black;
+.hero__button {
   color: white;
   border-radius: 30px;
-  height: 30px;
-  width: 215px;
   margin-top: 20px;
   margin-left: 70px;
   border: none;
+  padding: 10px 25px;
   font-size: 13px;
   font-weight: bold;
 }
 
-.hero__buttons-hero__buttons--pink{
+.hero__button--dark{
+  background-color: black;
+}
+
+.hero__button--pink{
   background-color:pink;
-  color: white;
-  border-radius: 30px;
-  height: 30px;
-  width: 150px;
-  margin-top: 40px;
-  margin-left: 50px;
-  border: none;
-  font-size: 13px;
-  font-weight: bold;
 }

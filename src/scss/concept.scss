@@ -1,88 +1,38 @@
-/* $primary-position: absolute;
-$primary-top-text: 40px;
-$primary-width-text: 217px;
-.concept-title {
-  position: $primary-position;
-  top: 719px;
-  left: 137px;
+.concept {
+  margin-top: 110px;
 }
+
+.concept-title {
+margin-left: 80px;
+}
+.container__concept {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+}
+
 
 .concept__container {
-  position: $primary-position;
-  width: 100vw;
-  height: 272px;
-  top: 807px;
-  background-color: white;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-
-  .concept__container__contents {
-      
-    li {
-      position: $primary-position;
-      display: inline;
-      top: 55px;
-    }
-    .concept__container__content__1 {
-      left: 260px;
-    }
-
-    .concept__container__content__2{
-      left: 600px;
-    }
-
-    .concept__container__content__3{
-      left: 950px;
-    }
-    
-    .concept__container__contents__titles {
-      font-family: Futura PT;
-      font-style: normal;
-      font-size: 20px;
-      font-weight: 500;
-    }
-    .concept__container__content__title1 {
-      position: $primary-position;
-      left: 295px;
-    }
-    .concept__container__content__title2 {
-      position: $primary-position;
-      left: 650px;
-    }
-    .concept__container__content__title3 {
-      position: $primary-position;
-      left: 1000px;
-    }
-    .concept__container__contents__texts {
-      position: $primary-position;
-      font-family: Futura PT;
-      font-style: normal;
-      font-size: 18px;
-      font-weight: 400;
-      top: $primary-top-text;
-      
-    }
-    .concept__container__content__text1 {
-      position: $primary-position;
-      left: 295px;
-      width: $primary-width-text;
-    }
-    .concept__container__content__text2 {
-      position: $primary-position;
-      left: 650px;
-      width: $primary-width-text;
-    }
-    .concept__container__content__text3 {
-      position: $primary-position;
-      left: 1000px;
-      width: $primary-width-text;
-    }
-  }
-}
-.page__collab__tache {
-  position: absolute;
-  top: 1175px;
-  left: 780px;
+  padding-top: 40px;
+  width: 210px;
+  padding-bottom: 40px;
 }
 
+.concept__step {
+  font-size: 60px;
+  font-weight: 800;
+  color: #FFB7C5;
+  text-shadow:0px 3px 3px rgb(191, 85, 106);
 
- */
+}
+.concept__subtitle {
+  font-weight: 600;
+font-size: 20px;
+}
+
+.concept__description {
+margin-top: 16px;
+font-size: 18px;
+line-height: 23px;
+}
