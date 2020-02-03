@@ -1,3 +1,4 @@
+$primary-color-text: #414141;
 .footer {
   position: absolute;
   width: 100vw;
@@ -98,7 +99,7 @@
         font-weight: 450;
         font-size: 12px;
         line-height: 15px;
-        color: #413D57;
+        color: $primary-color-text;
       }
 
       .footer__container__sous-footer__text2 {
@@ -107,7 +108,7 @@
         left: 800px;
         font-family: Futura PT;
         font-style: normal;
-        color: #413D57;
+        color: $primary-color-text;
         opacity: 0.6;
       }
     }
