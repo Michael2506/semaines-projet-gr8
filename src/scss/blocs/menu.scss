@@ -1,0 +1,90 @@
+.menuBurger {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 33px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.navigation__burger {
+  width: 32px;
+  height: 4px;
+  background-color: blue;
+  display: none;
+
+  @include sm {
+    display: block;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 32px;
+    height: 4px;
+    background-color: green;
+
+    &.-isOpen {
+      transform: rotate(90deg);
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    width: 32px;
+    height: 4px;
+    background-color: green;
+  }
+}
+
+.menuOpen {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  color: black;
+  transform: translateX(-1200px);
+  transition: transform 0.7s ease-out;
+
+  ul {
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  a {
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+.-isOpen {
+  transform: none;
+  visibility: visible;
+}
+
+.close {
+  margin-top: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+  width: 32px;
+  height: 4px;
+  background-color: green;
+  transform: rotate(90deg);
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 32px;
+    background-color: green;
+    height: 4px;
+    transform: rotate(90deg);
+  }
+}
