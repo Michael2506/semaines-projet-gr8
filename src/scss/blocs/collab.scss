@@ -12,13 +12,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include sm {
+    flex-direction: column;
+    margin-top: 40px;
+  }
 }
 
 .collab__text {
   width: 600px;
   margin-left: 60px;
-font-size: 18px;
+  font-size: 18px;
   line-height: 25px;
+  @include sm {
+    width: 300px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
 }
 
 .collab__button {
@@ -34,6 +43,9 @@ font-size: 18px;
   margin-left: 600px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+  @include sm {
+    margin-left: 190px;
+  }
 
   a {
     text-decoration: none;
@@ -41,9 +53,15 @@ font-size: 18px;
   }
 
   &:hover {
-    background-color: pink;;
-  box-shadow: 0px 5px 10px grey;
-  color: #fff;
-  transform: translateY(-7px);
+    background-color: pink;
+    box-shadow: 0px 5px 10px grey;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+}
+
+.collab__picture {
+  @include sm {
+    max-width: 30%;
   }
 }

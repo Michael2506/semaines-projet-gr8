@@ -1,26 +1,43 @@
 .hero {
-  margin-top: 10px; 
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @include sm {
+    flex-direction: column-reverse;
+  }
 }
 
-
-.hero__season{
+.hero__season {
   margin-left: 80px;
   margin-top: 50px;
+
+  @include sm {
+    max-width: 50%;
+  }
 }
 
-.hero__title{
+.hero__title {
   margin-left: 80px;
   margin-top: 20px;
   font-size: 80px;
   font-weight: bold;
+
+  @include sm {
+    font-size: 60px;
+    margin-top: 0;
+  }
 }
 
-.hero__description{
+.hero__description {
   width: 450px;
   margin-left: 80px;
   margin-top: 20px;
+  @include sm {
+    display: none;
+  }
 }
-
 
 .hero__button {
   color: white;
@@ -33,26 +50,32 @@
   font-weight: bold;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+
+  @include sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.hero__button--dark{
-  background-color: black; 
-  
+.hero__button--dark {
+  background-color: black;
+
   a {
     text-decoration: none;
     color: white;
   }
 
   &:hover {
-    background-color: pink;;
-  box-shadow: 0px 5px 10px grey;
-  color: #fff;
-  transform: translateY(-7px);
+    background-color: pink;
+    box-shadow: 0px 5px 10px grey;
+    color: #fff;
+    transform: translateY(-7px);
   }
 }
 
-.hero__button--pink{
-  background-color:pink;
+.hero__button--pink {
+  background-color: pink;
 
   a {
     text-decoration: none;
@@ -61,8 +84,28 @@
 
   &:hover {
     background-color: black;
-  box-shadow: 0px 5px 10px grey;
-  color: #fff;
-  transform: translateY(-7px);
+    box-shadow: 0px 5px 10px grey;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+}
+
+.hero--left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @include sm {
+    align-items: center;
+  }
+}
+
+.hero--right {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+
+  @include sm {
   }
 }

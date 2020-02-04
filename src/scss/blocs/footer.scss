@@ -1,24 +1,23 @@
-body{
+body {
   font-family: Futura PT;
-
 }
 
-.footer__container{
+.footer__container {
   display: flex;
 
   height: 170px;
-  background-color: #FDC8D3;
+  background-color: #fdc8d3;
   margin-top: 120px;
   justify-content: space-around;
-  font-weight: 500;
+  font-weight: 500px;
   color: white;
 
-  h1{
+  h1 {
     color: #060606;
     align-items: center;
     list-style: none;
-    margin-top: 20px;;
-    color: #FEFEFE;
+    margin-top: 20px;
+    color: #fefefe;
   }
   li {
     list-style: none;
@@ -29,14 +28,19 @@ body{
   }
 }
 .under--footer {
-
   height: 38px;
-  background-color: #C98E9A;
+  background-color: #c98e9a;
   display: flex;
   justify-content: space-around;
 
   p {
     color: #414141;
     margin-top: 13px;
+  }
+}
+
+section {
+  @include sm {
+    flex-direction: column;
   }
 }

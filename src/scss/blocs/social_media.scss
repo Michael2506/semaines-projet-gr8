@@ -3,6 +3,10 @@
 }
 .social-media__title {
   margin-left: 80px;
+  @include sm {
+    margin-left: 20px;
+    max-width: 100%;
+  }
 }
 
 .social-media__pictures {
@@ -10,7 +14,15 @@
   justify-content: space-around;
 
   img {
-    margin-top: 50px;
+    &:nth-of-type(1) {
+      @include sm {
+        display: none;
+      }
+      margin-top: 50px;
+      @include sm {
+        max-width: 40%;
+      }
+    }
   }
 }
 .social-media__button {
@@ -33,9 +45,9 @@
   }
 
   &:hover {
-    background-color: pink;;
-  box-shadow: 0px 5px 10px grey;
-  color: #fff;
-  transform: translateY(-7px);
+    background-color: pink;
+    box-shadow: 0px 5px 10px grey;
+    color: #fff;
+    transform: translateY(-7px);
   }
 }
