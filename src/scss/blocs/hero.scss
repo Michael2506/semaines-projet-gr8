@@ -50,14 +50,17 @@
   font-weight: bold;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-
   @include sm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
+    flex-direction: row;
   }
 }
-
+.hero__buttons {
+  @include sm {
+    @include flexCenter;
+    flex-direction: column;
+  }
+}
 .hero__button--dark {
   background-color: black;
 
@@ -109,5 +112,6 @@
   @include sm {
     width: 300px;
     height: 300px;
+    margin-left: 100px;
   }
 }

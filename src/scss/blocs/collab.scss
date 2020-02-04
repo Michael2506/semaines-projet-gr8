@@ -12,9 +12,7 @@
 
 .container__collab {
   margin-top: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter;
   @include sm {
     flex-direction: column;
     margin-top: 40px;
