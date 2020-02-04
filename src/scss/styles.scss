@@ -1,4 +1,8 @@
 @import "vendors/reset.scss";
+
+@import "config/mixins.scss";
+@import "config/variables.scss";
+
 @import "blocs/header.scss";
 @import "blocs/hero.scss";
 @import "blocs/collab.scss";
