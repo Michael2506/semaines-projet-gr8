@@ -5,6 +5,9 @@
 .collab__title {
   margin-left: 80px;
   width: 400px;
+  @include sm {
+    max-width: 10%;
+  }
 }
 
 .container__collab {
