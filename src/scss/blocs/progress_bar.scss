@@ -1,0 +1,53 @@
+body { 
+  padding: 15px; 
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.progress__bar {
+  display: flex;
+  justify-content: center;
+
+  input[type="button"] {
+  margin-top: 20px;
+}
+
+}
+#progress {
+  display: flex;
+  width: 400px;
+  height: 90px;
+  border: 2px solid block;
+  align-items: center;
+
+  li {
+    list-style: none;
+    width: 25%;
+  }
+}
+
+
+.node {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display:inline-block;
+  transition: all 1000ms ease;
+}
+
+
+.activated {
+  box-shadow: 0px 0px 1px 1px pink;
+}
+
+.divider {
+  height: 4px;
+  width: 120px;
+  transition: all 800ms ease;
+}
+
+
+.blue { background-color: pink }
+.green{ background-color: pink}
+.red { background-color: rgba(255, 148, 148, 1); }
+.grey { background-color: rgba(201, 201, 201, 1); }
