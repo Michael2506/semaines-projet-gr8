@@ -107,5 +107,7 @@
   background-color: red;
 
   @include sm {
+    width: 300px;
+    height: 300px;
   }
 }

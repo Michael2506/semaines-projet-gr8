@@ -4,6 +4,10 @@
 
 .concept-title {
   margin-left: 80px;
+  @include sm {
+    margin-left: 0;
+    max-width: 20%;
+  }
 }
 .container__concept {
   display: flex;

@@ -43,6 +43,6 @@ body {
 
 .header__logo {
   @include sm {
-    display: block;
+    display: none;
   }
 }
