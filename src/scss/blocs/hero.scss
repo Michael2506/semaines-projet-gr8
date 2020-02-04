@@ -15,6 +15,7 @@
 
   @include sm {
     max-width: 50%;
+    margin-left: 0;
   }
 }
 
@@ -27,6 +28,7 @@
   @include sm {
     font-size: 60px;
     margin-top: 0;
+    margin-left: 0;
   }
 }
 
@@ -36,6 +38,7 @@
   margin-top: 20px;
   @include sm {
     display: none;
+    margin-left: 0;
   }
 }
 
@@ -53,6 +56,7 @@
   @include sm {
     @include flexCenter;
     flex-direction: row;
+    margin-left: 0;
   }
 }
 .hero__buttons {
@@ -112,6 +116,5 @@
   @include sm {
     width: 300px;
     height: 300px;
-    margin-left: 100px;
   }
 }
