@@ -1,0 +1,103 @@
+.custom1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.custom-step1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.custom1__custom-title1 {
+  margin-top: 50px;
+  width: 600px;
+}
+
+.color-choice {
+  margin-top: 100px;
+}
+
+.color-choice__step1 {
+  display: flex;
+  
+  svg {
+    margin: 10px;
+  }
+
+  p {
+    font-family: Hey August;
+    font-size: 43px;
+    margin-left: 5px;
+    margin-top: 25px;
+  }
+}
+.trench-step1 {  
+  justify-content: center;
+  
+}
+.choice-patterns {
+  display: flex;
+  flex-direction: column;;
+  margin-top: 40px;
+
+  p {
+    font-family: Hey August;
+    font-size: 43px;
+    margin-left: 5px;
+    margin-top: 25px;
+  }
+  
+  
+}
+.choice-pattern2 {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.choice-pattern3{ 
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.choice-pattern4 {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.custom__button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.custom__button--nextStep  {
+  background-color: black; 
+  color: white;
+  border-radius: 30px;
+  margin-top: 70px;
+  margin-right: 50px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  &:hover {
+    background-color: pink;;
+  box-shadow: 0px 5px 10px grey;
+  color: #fff;
+  transform: translateY(-7px);
+  }
+}
