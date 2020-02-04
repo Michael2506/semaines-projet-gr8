@@ -15,10 +15,8 @@
   justify-content: space-around;
   background-color: #f2f2f2;
   @include sm {
-    display: flex;
-    justify-content: center;
+    @include flexCenter;
     flex-direction: column;
-    align-items: center;
   }
 }
 

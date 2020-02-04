@@ -9,9 +9,7 @@ body {
   height: 80px;
 }
 .subfooter__content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCenter;
   flex-direction: column;
 }
 .subfooter__title {
