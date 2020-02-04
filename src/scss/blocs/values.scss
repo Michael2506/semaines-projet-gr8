@@ -1,14 +1,19 @@
 .values {
   text-align: center;
 }
-.container{
+.container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
+  @include sm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
 }
-
-
 
 .value__description {
   width: 210px;
@@ -16,7 +21,7 @@
 }
 
 .button__viewMore {
-margin-top: 60px;
+  margin-top: 60px;
   color: white;
   background-color: #060606;
   border-radius: 30px;
@@ -27,15 +32,25 @@ margin-top: 60px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
 
+  @include sm {
+    margin-top: 60px;
+  }
+
   a {
     text-decoration: none;
     color: white;
   }
 
   &:hover {
-    background-color: pink;;
-  box-shadow: 0px 5px 10px grey;
-  color: #fff;
-  transform: translateY(-7px);
+    background-color: pink;
+    box-shadow: 0px 5px 10px grey;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+}
+
+.container__value {
+  @include sm {
+    padding-bottom: 70px;
   }
 }
