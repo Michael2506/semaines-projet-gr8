@@ -40,9 +40,11 @@
 }
 
 .hero__button {
-  color: white;
+  @include flexCenter;
+  color: $white;
   border-radius: 30px;
   margin-top: 20px;
+
   margin-left: 70px;
   border: none;
   padding: 10px 25px;
@@ -50,6 +52,7 @@
   font-weight: bold;
   transition: all 0.3s ease 0s;
   cursor: pointer;
+
   @include sm {
     @include flexCenter;
     flex-direction: row;
@@ -57,39 +60,47 @@
   }
 }
 .hero__buttons {
+  border: none;
+  display: flex;
+
+  a {
+    text-decoration: none;
+  }
+
   @include sm {
     @include flexCenter;
     flex-direction: column;
   }
 }
 .hero__button--dark {
-  background-color: black;
+  background-color: $dark;
+  border: 2px solid $dark;
 
   a {
     text-decoration: none;
-    color: white;
+    color: $white;
   }
 
   &:hover {
-    background-color: pink;
-    box-shadow: 0px 5px 10px grey;
-    color: #fff;
+    background-color: $white;
+    color: $dark;
+    border: 2px solid $dark;
     transform: translateY(-7px);
   }
 }
 
 .hero__button--pink {
-  background-color: pink;
+  background-color: $pink;
+  border: 2px solid $pink;
 
   a {
     text-decoration: none;
-    color: white;
+    color: $white;
   }
 
   &:hover {
-    background-color: black;
-    box-shadow: 0px 5px 10px grey;
-    color: #fff;
+    color: $pink;
+    background-color: $white;
     transform: translateY(-7px);
   }
 }
