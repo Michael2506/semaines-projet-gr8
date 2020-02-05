@@ -15,6 +15,10 @@ body {
 .subfooter__title {
   margin-top: 6px;
   font-size: 16px;
+  @include sm{
+    font-size: 11px;
+    margin-left: 25px;
+  }
 }
 
 .footer__container {
@@ -27,8 +31,17 @@ body {
   font-weight: 500px;
   color: white;
 
+  .info{
+    @include sm{
+      margin-left: 10px;
+    }
+  }
+
   .français {
-    margin-left: 100px;
+    margin-left: 110px;
+    @include sm {
+      margin-left: 40px;
+    }
   }
 
   h1 {
@@ -38,10 +51,14 @@ body {
     margin-top: 20px;
     color: #fefefe;
     font-size: 16px;
+
+    @include sm{
+      font-size: 11px;
+    }
   }
   li {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
@@ -57,5 +74,8 @@ body {
   p {
     color: #414141;
     margin-top: 13px;
+    @include sm{
+      font-size: 10px;
+    }
   }
 }

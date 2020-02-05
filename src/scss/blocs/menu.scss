@@ -9,7 +9,7 @@
 .navigation__burger {
   width: 32px;
   height: 4px;
-  background-color: blue;
+  background-color: $dark;
   display: none;
 
   @include sm {
@@ -22,7 +22,7 @@
     top: 40px;
     width: 32px;
     height: 4px;
-    background-color: green;
+    background-color: $dark;
 
     &.-isOpen {
       transform: rotate(90deg);
@@ -35,7 +35,7 @@
     top: 50px;
     width: 32px;
     height: 4px;
-    background-color: green;
+    background-color: $dark;
   }
 }
 
@@ -76,14 +76,14 @@
   cursor: pointer;
   width: 32px;
   height: 4px;
-  background-color: green;
+  background-color: $pink;
   transform: rotate(90deg);
 
   &::after {
     position: absolute;
     content: "";
     width: 32px;
-    background-color: green;
+    background-color: $pink;
     height: 4px;
     transform: rotate(90deg);
   }
