@@ -10,7 +10,10 @@
 <body>
   <header>
     <nav class="header">
-      <a class="header__logo" href="#"><img src="../src/img/Trendee.svg" alt="logo" class="header__navbar__logo" ></a>
+      <a class="header__logo" href="#">
+        <img src="../src/img/Trendee.svg" 
+            alt="logo" 
+            class="header__navbar__logo" ></a>
         <nav class="header__navbar">
           <li><a href="#">Acceuil</a></li> 
           <li> <a href="#">Notre Produit</a></li>
@@ -25,8 +28,10 @@
   </header>
 
 
-  <section class="custom1">
-    <img  class="custom1__custom-title1" src="../src/img/customs-trenches/custom-title-step1.png" alt="Choisis une couleur de base">
+  <section class="custom__firstStep">
+    <img  class="custom__firstStep--title" 
+          src="../src/img/customs-trenches/custom-title-step1.png" 
+          alt="Choisis une couleur de base">
   </section>
 
   <section class="progress__bar">
@@ -41,45 +46,47 @@
   </ul>
   <!-- <input type="button" value="Next" id="next"/> -->
   <!-- <input type="button" value="Clear" id="clear"/> -->
-  
   </section>
   
 
-  <section class="custom-step1">
-  <article class="color-choice">
-    <div class="color-choice__step1"> 
+  <section class="custom__firstChoice">
+  <article class="color__possibilities">
+    <div class="color__possibilities--choice"> 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="70" height="70">
         <circle cx="100" cy="100" r="80" fill="#E0E1E1E1" />
       </svg><p>Blanc</p>
     </div>
-    <div class="color-choice__step1"> 
+    <div class="color__possibilities--choice"> 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="70" height="70">
         <circle cx="100" cy="100" r="80" fill="#060606" />
       </svg>
       <p>Noir</p>
   </div>
 </article>
-  <article class="trench-step1">
-  <img class="step1__picture" src="../src/img/customs-trenches/black-trench-step1.png" alt="trench noir">
+
+  <article class="custom__secondChoice">
+  <img class="custom__secondChoice--picture" src="../src/img/customs-trenches/black-trench-step1.png" alt="trench noir">
     </article>
-    <article class="choice-patterns">
-      <div class="choice-pattern1">
+    <article class="partterns__firstChoices">
+      <div class="pattern-choice-none">
         <img src="../src/img/customs-trenches/nothing.svg" alt="">
       </div>
-      <div class="choice-pattern2">
+      <div class="pattern-choice-1">
         <img src="../src/img/customs-trenches/wave-choice.svg" alt="">
         <p>Vague de Kanagawa</p>
       </div>
-      <div class="choice-pattern3">
+      <div class="pattern-choice-2">
         <img src="../src/img/customs-trenches/dragon-choice.png" alt="">
         <p>Dragon sacré</p>
       </div>
-      <div class="choice-pattern4">
+      <div class="pattern-choice-3">
         <img src="../src/img/customs-trenches/kitsune-choice.png" alt="">
         <p>Kitsune</p>
       </div>
     </article>
 </section>
+
+
 <article class="custom__button">
   <input type="button" value="Next" id="next" class="custom__button--nextStep"/><a href="#"></a>
 </article>
