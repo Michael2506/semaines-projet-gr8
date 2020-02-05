@@ -1,12 +1,9 @@
-body {
-  font-family: Futura PT;
-}
-
 .header {
   display: flex;
   margin-top: 20px;
   justify-content: space-around;
   align-items: center;
+  height: 30px;
   font-weight: 500;
 }
 
@@ -14,13 +11,15 @@ body {
   @include sm {
     display: none;
   }
+
   a {
-    text-decoration: none;
     color: #060606;
+    text-decoration: none;
 
     &:hover {
-      border-bottom: solid 2px #fdc8d3;
-      transform: scaleX(1);
+      border-bottom: solid 1px #fdc8d3;
+      transform: translateY(-10px);
+      color: pink;
     }
   }
   li {

@@ -1,0 +1,9 @@
+p {
+  font-size: $textSize-Desktop;
+  line-height: 24px;
+
+  @include sm {
+    font-size: $textSize-Mobile;
+    text-align: center;
+  }
+}
