@@ -1,4 +1,8 @@
-@import "vendors/reset.scss";
+@import "vendors/reset";
+
+@import "config/mixins";
+@import "config/variables";
+@import"config/fonts";
 
 @import "config/mixins.scss";
 @import "config/variables.scss";
@@ -15,3 +19,5 @@
 @import "blocs/footer.scss";
 @import "blocs/custom.scss";
 @import "blocs/progress_bar.scss";
+
+
