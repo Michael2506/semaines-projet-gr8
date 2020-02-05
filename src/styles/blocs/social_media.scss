@@ -1,0 +1,36 @@
+.title__instagram {
+  margin-left: 120px;
+  margin-top: 50px;
+  @include sm {
+    width: 300px;
+    margin-left: 10px;
+  }
+}
+.instagram {
+  margin-top: 40px;
+  @include flexCenter;
+  justify-content: space-around;
+  @include sm {
+    @include flexCenter;
+    flex-direction: column;
+  }
+
+  figure {
+    filter: none;
+    background-color: white;
+    cursor: pointer;
+
+    img:hover {
+      opacity: 0.6;
+    }
+  }
+
+  figcaption {
+    text-align: center;
+    margin-top: 10px;
+
+    em {
+      font-weight: 600;
+    }
+  }
+}

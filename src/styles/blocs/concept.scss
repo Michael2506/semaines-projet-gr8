@@ -3,10 +3,10 @@
 }
 
 .concept-title {
-margin-left: 80px;
-@include sm {
-  max-width: 70%;
-}
+  margin-left: 80px;
+  @include sm {
+    max-width: 70%;
+  }
 }
 .container__concept {
   display: flex;
@@ -19,13 +19,11 @@ margin-left: 80px;
   }
 }
 
-
-
 .concept__container {
   padding-top: 40px;
   width: 210px;
   padding-bottom: 40px;
-  @include sm{
+  @include sm {
     @include flexCenter;
     flex-direction: column;
   }
@@ -34,19 +32,16 @@ margin-left: 80px;
 .concept__step {
   font-size: 60px;
   font-weight: 800;
-  color: #ffb7c5;
-
-  text-shadow: 0px 3px 3px 3px rgb(191, 85, 106) inset;
-
+  color: $pink;
+  //box-shadow: 0px 3px 3px 3px rgb(191, 85, 106);
 }
 .concept__subtitle {
   font-weight: 600;
-font-size: 20px;
+  font-size: 20px;
 }
 
 .concept__description {
-margin-top: 16px;
-font-size: 18px;
-line-height: 23px;
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 23px;
 }
-
