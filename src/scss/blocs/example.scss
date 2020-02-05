@@ -3,8 +3,8 @@
 }
 
 .example__title {
-  font-size: 40px;
-
+  margin-left: 120px;
+  margin-top: 50px;
   @include sm {
     text-align: center;
   }
