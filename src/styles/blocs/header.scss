@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  font-weight: 500;
+}
+
+.header__navbar {
+  @include sm {
+    display: none;
+  }
+
+  a {
+    color: #060606;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: solid 1px #fdc8d3;
+      transform: translateY(-10px);
+      color: pink;
+    }
+  }
+  li {
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+  }
+}
+
+.header__icons {
+  @include sm {
+    display: none;
+  }
+  margin-left: 340px;
+  li {
+    display: inline;
+    padding-left: 20px;
+  }
+}
+
+.header__logo {
+  @include sm {
+    display: none;
+  }
+}
