@@ -4,7 +4,7 @@ body {
 .subfooter {
   display: flex;
   justify-content: space-around;
-  background: #ffe6eb;
+  background: $pink;
   margin-top: 80px;
   height: 80px;
 }
@@ -14,17 +14,22 @@ body {
 }
 .subfooter__title {
   margin-top: 6px;
+  font-size: 16px;
 }
 
 .footer__container {
   display: flex;
 
   height: 170px;
-  background-color: #fdc8d3;
+  background-color: $pink;
 
   justify-content: space-around;
   font-weight: 500px;
   color: white;
+
+  .français {
+    margin-left: 100px;
+  }
 
   h1 {
     color: #060606;

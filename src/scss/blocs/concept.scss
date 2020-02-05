@@ -5,8 +5,7 @@
 .concept-title {
 margin-left: 80px;
 @include sm {
-  margin-left: 0;
-  max-width: 20%;
+  max-width: 60%;
 }
 }
 .container__concept {
@@ -26,6 +25,10 @@ margin-left: 80px;
   padding-top: 40px;
   width: 210px;
   padding-bottom: 40px;
+  @include sm{
+    @include flexCenter;
+    flex-direction: column;
+  }
 }
 
 .concept__step {

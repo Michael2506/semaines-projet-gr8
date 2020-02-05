@@ -6,7 +6,7 @@
   margin-left: 80px;
   width: 400px;
   @include sm {
-    max-width: 10%;
+    max-width: 40%;
   }
 }
 
@@ -36,7 +36,7 @@
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  background-color: #060606;
+  background-color: $dark;
   border-radius: 30px;
   border: none;
   padding: 10px 25px;
