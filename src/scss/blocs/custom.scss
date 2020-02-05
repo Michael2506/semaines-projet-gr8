@@ -33,6 +33,9 @@
     font-size: 43px;
     margin-left: 5px;
     margin-top: 25px;
+    @include sm{
+      font-size: $mobile-textSize;
+    }
   }
 }
 .custom__secondChoice--picture {
