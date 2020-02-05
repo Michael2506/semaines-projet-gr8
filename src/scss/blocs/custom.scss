@@ -1,10 +1,10 @@
-.custom1 {
+.custom__firstStep {
   display: flex;
   justify-content: center;
   align-items: center; 
 }
 
-.custom-step1{
+.custom__firstChoice{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,16 +12,16 @@
 }
 
 
-.custom1__custom-title1 {
+.custom__firstStep--title {
   margin-top: 50px;
   width: 600px;
 }
 
-.color-choice {
+.color__possibilities {
   margin-top: 100px;
 }
 
-.color-choice__step1 {
+.color__possibilities--choice {
   display: flex;
   
   svg {
@@ -35,11 +35,11 @@
     margin-top: 25px;
   }
 }
-.trench-step1 {  
+.custom__secondChoice--picture {  
   justify-content: center;
   
 }
-.choice-patterns {
+.partterns__firstChoices {
   display: flex;
   flex-direction: column;;
   margin-top: 40px;
@@ -53,17 +53,17 @@
   
   
 }
-.choice-pattern2 {
+.pattern-choice-1 {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
 }
-.choice-pattern3{ 
+.pattern-choice-2{ 
   margin-top: 25px;
   display: flex;
   flex-direction: row;
 }
-.choice-pattern4 {
+.pattern-choice-3 {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
