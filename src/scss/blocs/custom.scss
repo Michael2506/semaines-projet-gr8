@@ -1,16 +1,15 @@
 .custom__firstStep {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
-.custom__firstChoice{
+.custom__firstChoice {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 0px;
 }
-
 
 .custom__firstStep--title {
   margin-top: 50px;
@@ -23,7 +22,7 @@
 
 .color__possibilities--choice {
   display: flex;
-  
+
   svg {
     margin: 10px;
   }
@@ -33,13 +32,9 @@
     font-size: 43px;
     margin-left: 5px;
     margin-top: 25px;
-    @include sm{
-      font-size: $mobile-textSize;
-    }
   }
 }
 .custom__secondChoice--picture {
-
   justify-content: center;
   opacity: 1;
   margin-left: 90px;
@@ -60,12 +55,12 @@
   height: 410px;
 }
 
-.custom__secondChoice--picture--wave  {
+.custom__secondChoice--picture--wave {
   width: 546px;
   height: 410px;
   position: absolute;
   opacity: 0;
-  
+
   &.active {
     opacity: 1;
   }
@@ -81,8 +76,6 @@
     margin-left: 5px;
     margin-top: 25px;
   }
-  
-  
 }
 .pattern-choice-1 {
   margin-top: 25px;
@@ -90,7 +83,7 @@
   flex-direction: row;
   left: 0;
 }
-.pattern-choice-2{ 
+.pattern-choice-2 {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
@@ -101,15 +94,13 @@
   flex-direction: row;
 }
 
-.custom__button{
+.custom__button {
   display: flex;
   justify-content: flex-end;
 }
 
-
-
-.custom__button--nextStep  {
-  background-color: black; 
+.custom__button--nextStep {
+  background-color: black;
   color: white;
   border-radius: 30px;
   margin-top: 70px;
@@ -120,16 +111,16 @@
   font-weight: bold;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  
+
   a {
     text-decoration: none;
     color: white;
   }
 
   &:hover {
-    background-color: pink;;
-  box-shadow: 0px 5px 10px grey;
-  color: #fff;
-  transform: translateY(-7px);
+    background-color: pink;
+    box-shadow: 0px 5px 10px grey;
+    color: #fff;
+    transform: translateY(-7px);
   }
 }

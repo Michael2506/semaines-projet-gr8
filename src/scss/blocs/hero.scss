@@ -1,5 +1,4 @@
 .hero {
-  margin-top: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,18 +10,15 @@
 
 .hero__season {
   margin-left: 80px;
-  margin-top: 50px;
 
   @include sm {
     max-width: 70%;
     margin-left: 0;
-
   }
 }
 
 .hero__title {
   margin-left: 80px;
-  margin-top: 20px;
   font-size: 80px;
   font-weight: bold;
 
@@ -112,10 +108,10 @@
 .hero--right {
   width: 500px;
   height: 500px;
-  background-color: red;
 
-  @include sm {
-    width: 300px;
-    height: 300px;
+  img {
+    @include sm {
+      max-width: 80%;
+    }
   }
 }
