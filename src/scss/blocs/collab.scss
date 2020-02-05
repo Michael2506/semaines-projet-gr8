@@ -20,7 +20,6 @@
   }
 }
 
-
 .collab__right {
   flex-direction: column;
   display: flex;
@@ -37,35 +36,18 @@
       margin-top: 30px;
       font-size: 15px;
     }
-
   }
 
   .collab__button {
     margin-top: 20px;
-
-    text-transform: uppercase;
-    color: white;
-    background-color: #060606;
-    border-radius: 30px;
-    border: none;
-    padding: 10px 25px;
-    font-size: 13px;
+    @include button;
+    background-color: $dark;
+    border: 2px solid $dark;
+    @include buttonHoverDark;
 
     cursor: pointer;
     @include sm {
       margin-left: 190px;
-    }
-
-    a {
-      text-decoration: none;
-      color: white;
-    }
-
-    &:hover {
-      background-color: pink;
-      box-shadow: 0px 5px 10px grey;
-      color: #fff;
-      transform: translateY(-7px);
     }
   }
 }
