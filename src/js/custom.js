@@ -1,4 +1,4 @@
-var list = document.getElementById('progress'),
+/* var list = document.getElementById('progress'),
     next = document.getElementById('next'),
     clear = document.getElementById('clear'),
     children = list.children,
@@ -43,4 +43,20 @@ function update() {
       }
       
   }
-}
+} */
+
+//Change Pattern
+
+var buttonWave = document.querySelector('#add');
+var sweatWaves = document.querySelector('.custom__secondChoice--picture--wave');
+
+buttonWave.addEventListener('click', function() {
+  sweatWaves.classList.add('active');
+});
+
+var buttonNone = document.querySelector('#none');
+
+buttonNone.addEventListener('click', function() {
+  sweatWaves.classList.remove('active');
+});
+

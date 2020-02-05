@@ -1,17 +1,20 @@
-@import "vendors/reset.scss";
+@import "vendors/reset";
 
-@import "config/mixins.scss";
-@import "config/variables.scss";
+@import "config/mixins";
+@import "config/variables";
+@import"config/fonts";
 
-@import "blocs/header.scss";
-@import "blocs/menu.scss";
-@import "blocs/hero.scss";
-@import "blocs/collab.scss";
-@import "blocs/concept.scss";
-@import "blocs/values.scss";
-@import "blocs/social_media.scss";
-@import "blocs/footer.scss";
-@import "blocs/custom.scss";
+@import "blocs/header";
+@import "blocs/menu";
+@import "blocs/hero";
+@import "blocs/collab";
+@import "blocs/concept";
+@import "blocs/values";
+@import "blocs/social_media";
+@import "blocs/footer";
+@import "blocs/custom";
 
-@import "blocs/progress_bar.scss";
+@import "blocs/progress_bar";
+
+
 
