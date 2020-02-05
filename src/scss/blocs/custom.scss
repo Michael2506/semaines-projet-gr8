@@ -38,13 +38,41 @@
     }
   }
 }
-.custom__secondChoice--picture {  
+.custom__secondChoice--picture {
+
   justify-content: center;
+  opacity: 1;
+  margin-left: 90px;
+  margin-top: 2px;
+  width: 546px;
+  height: 410px;
+}
+
+.custom__secondChoice {
+  position: relative;
+  justify-content: center;
+  position: absolute;
+  opacity: 1;
+  margin-left: 0px;
+  left: 0;
+  margin-top: 2px;
+  width: 546px;
+  height: 410px;
+}
+
+.custom__secondChoice--picture--wave  {
+  width: 546px;
+  height: 410px;
+  position: absolute;
+  opacity: 0;
   
+  &.active {
+    opacity: 1;
+  }
 }
 .partterns__firstChoices {
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   margin-top: 40px;
 
   p {
@@ -60,6 +88,7 @@
   margin-top: 25px;
   display: flex;
   flex-direction: row;
+  left: 0;
 }
 .pattern-choice-2{ 
   margin-top: 25px;

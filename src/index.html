@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -204,3 +205,245 @@
     <script src="app.js"></script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+  </head>
+  <body>
+    <header>
+      <nav class="header">
+        <a class="header__logo" href="#"
+          ><img
+            src="../src/img/Trendee.svg"
+            alt="logo"
+            class="header__navbar__logo"
+        /></a>
+        <nav class="header__navbar">
+          <ul>
+
+            <li><a href="#">Accueil</a></li>
+
+            <li><a href="#">Notre Produit</a></li>
+            <li><a href="#">Personnalisation</a></li>
+            <li><a href="#">Collaboration</a></li>
+          </ul>
+        </nav>
+        <nav class="header__icons">
+          <ul>
+            <li>
+              <a href=""><img src="../src/img/Shop_Icon.svg" alt="panier"/></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="../src/img/Vector.svg" alt="logo-compte"
+              /></a>
+
+            </li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="menuBurger">
+      <div class="navigation__burger"></div>
+    </div>
+    <nav class="menuOpen" id="menuOpen">
+      <div class="close" id="closeMenu"></div>
+      <ul>
+        <li><a href="#"></a>Nos produits</li>
+        <li><a href="#"></a>Personnalisation</li>
+        <li><a href="#"></a>Collaborations</li>
+        <li><a href="#"></a>Se connecter</li>
+        <li><a href="#"></a>Mon panier</li>
+      </ul>
+    </nav>
+    <!--Fin Menu Mobile-->
+
+    <section class="hero">
+      <article class="hero hero--left">
+        <img class="hero__season" src="../src/img/title.svg" alt="titre" />
+        <h1 class="hero__title">Le Trench</h1>
+        <p class="hero__description">
+          Pour la saison d’Automne Trendee vous présente le Trench totalement
+          écoresponsable ! Customisable à vos goûts, et cette fois , en
+          collaboration avec le British Museum et nous nous inspirons des
+          oeuvres du courant artistique UKIO-E.
+        </p>
+        <div class="hero__buttons">
+          <button class="hero__button hero__button--dark">
+            <a href="../src/custom.html">PERSONNALISE TON TRENCH</a>
+          </button>
+          <button class="hero__button hero__button--pink">
+            <a href="#">EN SAVOIR PLUS</a>
+          </button>
+        </div>
+      </article>
+      <article class="hero hero--right">
+
+        <div>
+          ICI LA photo
+        </div>
+
+      </article>
+    </section>
+
+    <section class="concept">
+      <img
+        class="concept-title"
+        src="../src/img/concept-title.svg"
+        alt="notre concept"
+      />
+      <section class="container__concept">
+        <article class="concept__container">
+          <div class="concept__step">1</div>
+          <h1 class="concept__subtitle">Récupération</h1>
+          <p class="concept__description">
+            Nous récupérons les invendus de soldes de nos magasins partenaires,
+            chaque saison, pour vous proposer un article à customiser toute
+            l’année.
+          </p>
+        </article>
+        <article class="concept__container">
+          <div class="concept__step">2</div>
+          <h1 class="concept__subtitle">Personnalisation</h1>
+          <p class="concept__description">
+            Vous customisez le vêtement via notre site ou notre application
+            selon vos goûts.
+          </p>
+        </article>
+        <article class="concept__container">
+          <div class="concept__step">3</div>
+          <h1 class="concept__subtitle">Livraison</h1>
+          <p class="concept__description">
+            Nous vous livrons votre vêtement customisé sous deux semaines.
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <section class="values">
+      <div class="container">
+        <article class="container__value">
+          <img src="../src/img/t-shirt.svg" alt="t-shirt" />
+          <p class="value__description">
+            Nos vêtements de récupération sont de production française.
+          </p>
+        </article>
+        <article class="container__value">
+          <img src="../src/img/coeur.svg" alt="t-shirt" />
+          <p class="value__description">
+            Nous sommes partenaires à de nombreuses associations vertes.
+          </p>
+        </article>
+        <article class="container__value">
+          <img src="../src/img/pinceau.svg" alt="t-shirt" />
+          <p class="value__description">
+            Nos matériaux sont naturels et 100% recyclables.
+          </p>
+        </article>
+      </div>
+      <button class="button__viewMore"><a href="#">EN SAVOIR PLUS</a></button>
+    </section>
+
+    <section class="collab">
+      <img
+        class="collab__title"
+        src="img/Title_collab.svg"
+        alt="titre collab"
+      />
+      <section class="container__collab">
+        <img
+          class="collab__picture"
+          src="img/peinture collab.svg"
+          alt="photo de la Vague"
+        />
+
+        <div class="collab__right">
+          <p class="collab__text">
+            Cette saison nous sommes en collaboration avec le British Museum qui
+            peint nos trenchs imprimée de La Vague de Kanagawa du mouvement
+            artistique Ukyio-e. Ce tableau historique a été peint par le célèbre
+            “Vieux fou du dessin” Katsushika Hokusai.
+          </p>
+          <button class="collab__button"><a href="#">DÉCOUVRIR</a></button>
+        </div>
+      </section>
+    </section>
+
+    <section class="example">
+      <h1 class="example__title">Personnalisation</h1>
+      <article class="container__example">
+        <div class="example__left">
+          <p class="example__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            praesentium suscipit laudantium doloribus. Consequatur tempore
+            quisquam molestiae rerum repudiandae consectetur deserunt ex, eum,
+            quo similique rem ratione illo nulla dolorem!
+          </p>
+          <button class="example__button"><a href="#">Personnaliser</a></button>
+        </div>
+        <div class="example__right">
+          <img
+            src="/img/examples.png"
+            alt="products"
+            class="example__products"
+          />
+        </div>
+      </article>
+    </section>
+
+    <div class="subfooter">
+      <div class="subfooter__content">
+        <img src="img/box.svg" alt="" />
+        <h1 class="subfooter__title">LIVRAISON ET RETOURS GRATUITS</h1>
+      </div>
+      <div class="subfooter__content">
+        <img src="img/Vectoree.svg" alt="" />
+        <h1 class="subfooter__title">PAIEMENT SECURISE</h1>
+      </div>
+      <div class="subfooter__content">
+        <img src="img/growth 2.svg" alt="" />
+        <h1 class="subfooter__title">NEUTRE EN CARBONNE</h1>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__container">
+        <section>
+          <h1>AIDES ET INFORMATIONS</h1>
+          <ul>
+            <li>Assistance</li>
+            <li>Suivi de commandes</li>
+            <li>Livraison et retours</li>
+        </ul>
+        </section>
+        <section>
+          <h1>SELECTIONNER LA LANGUE</h1>
+
+          <li>
+            Langue
+            <img src="../src/img/france1.svg" alt="drapeau de la france" />
+            FRANCAIS
+          </li>
+        </section>
+        <section>
+          <h1>DEVIENS AMBASSADEUR</h1>
+          <li>Rejoins le casting</li>
+
+        </section>
+      </div>
+      <div class="under--footer">
+        <p>©TRENDEE</p>
+        <p>Confidentialité et cookies |Conditions générales |Accessibilité</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
+
