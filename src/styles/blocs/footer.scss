@@ -1,3 +1,10 @@
+.footer_div{
+  @include sm{
+    display: flex;
+    
+  }
+}
+
 footer {
   margin-left: -10%;
   margin-right: -10%;
@@ -36,7 +43,6 @@ footer {
   justify-content: space-around;
   font-weight: 500px;
   color: white;
-
   .info {
     @include sm {
       margin-left: 10px;
@@ -55,7 +61,7 @@ footer {
     align-items: center;
     list-style: none;
     margin-top: 20px;
-    color: #fefefe;
+    color: $dark-text;
     font-size: 16px;
 
     @include sm {
@@ -69,6 +75,7 @@ footer {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
+    color: $dark-text;
   }
 }
 .under--footer {
@@ -78,7 +85,7 @@ footer {
   justify-content: space-around;
 
   p {
-    color: #414141;
+    color: $dark-text;
     margin-top: 13px;
     @include sm {
       font-size: 10px;

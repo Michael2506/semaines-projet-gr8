@@ -19,11 +19,23 @@
     flex-direction: column;
     margin-top: 40px;
   }
+
+  img {
+    @include sm {
+      padding-left: 80px;
+    }
+  }
 }
 
 .value__description {
   width: 210px;
   margin-top: 20px;
+  
+  @include sm {
+    width: 250px;
+  margin-top: 20px;
+  padding-left: 50px;
+  }
 }
 
 .button__viewMore {
@@ -34,6 +46,7 @@
 
   @include sm {
     margin-top: 60px;
+    margin-left: 30px;
   }
 
   a {
