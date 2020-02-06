@@ -2,7 +2,7 @@
   margin-top: 50px;
   @include sm {
     width: 300px;
-    margin-left: 10px;
+    margin-left: 100px;
   }
 }
 .instagram {
@@ -12,6 +12,13 @@
   @include sm {
     @include flexCenter;
     flex-direction: column;
+  }
+  .insta_div{
+    @include sm{
+      @include flexCenter;
+      flex-direction: column;
+      
+    }
   }
 
   div {
@@ -31,7 +38,9 @@
     background-color: white;
     cursor: pointer;
     img {
-      width: 100%;
+      margin-left: 60px;
+      width: 250px;
+      height: 400px;
     }
     img:hover {
       opacity: 0.6;
