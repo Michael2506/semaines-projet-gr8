@@ -3,7 +3,7 @@
 }
 
 .example__title {
-  margin-left: 80px;
+  width: 100%;
   margin-top: 50px;
   @include sm {
     text-align: center;
@@ -11,7 +11,9 @@
 }
 
 .container__example {
-  @include flexCenter;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   @include sm {
     margin-top: 80px;
@@ -20,8 +22,8 @@
 }
 
 .example__left {
-  display: flex;
   width: 360px;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
 

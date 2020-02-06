@@ -1,15 +1,22 @@
 .values {
-  text-align: center;
+  margin-top: 100px;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
 }
+
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-bottom: 10px;
+
   @include sm {
     @include flexCenter;
     flex-direction: column;
-
     margin-top: 40px;
   }
 }

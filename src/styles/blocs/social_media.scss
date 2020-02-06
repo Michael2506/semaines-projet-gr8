@@ -1,5 +1,4 @@
 .title__instagram {
-  margin-left: 120px;
   margin-top: 50px;
   @include sm {
     width: 300px;
@@ -8,18 +7,32 @@
 }
 .instagram {
   margin-top: 40px;
-  @include flexCenter;
+
   justify-content: space-around;
   @include sm {
     @include flexCenter;
     flex-direction: column;
   }
 
+  div {
+    width: 1000px;
+    @include xl {
+      width: 100%;
+    }
+
+    margin: 30px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   figure {
     filter: none;
     background-color: white;
     cursor: pointer;
-
+    img {
+      width: 100%;
+    }
     img:hover {
       opacity: 0.6;
     }

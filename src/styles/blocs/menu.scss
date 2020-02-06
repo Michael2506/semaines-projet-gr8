@@ -1,9 +1,13 @@
 .menuBurger {
+  display: none;
   margin-top: 10px;
   margin-left: 20px;
   width: 33px;
   height: 30px;
   cursor: pointer;
+  @include sm {
+    display: block;
+  }
 }
 
 .navigation__burger {
@@ -40,6 +44,7 @@
 }
 
 .menuOpen {
+  display: none;
   position: absolute;
   top: 0;
   background-color: white;
@@ -49,7 +54,9 @@
   color: black;
   transform: translateX(-1200px);
   transition: transform 0.7s ease-out;
-
+  @include sm {
+    display: block;
+  }
   ul {
     display: flex;
     margin-top: 90px;
