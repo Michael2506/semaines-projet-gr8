@@ -1,6 +1,12 @@
-body {
-  font-family: Futura PT;
+footer {
+  margin-left: -10%;
+  margin-right: -10%;
+  @include xl {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
+
 .subfooter {
   display: flex;
   justify-content: space-around;
@@ -15,7 +21,7 @@ body {
 .subfooter__title {
   margin-top: 6px;
   font-size: 16px;
-  @include sm{
+  @include sm {
     font-size: 11px;
     margin-left: 25px;
   }
@@ -31,8 +37,8 @@ body {
   font-weight: 500px;
   color: white;
 
-  .info{
-    @include sm{
+  .info {
+    @include sm {
       margin-left: 10px;
     }
   }
@@ -52,7 +58,7 @@ body {
     color: #fefefe;
     font-size: 16px;
 
-    @include sm{
+    @include sm {
       font-size: 11px;
     }
   }
@@ -74,7 +80,7 @@ body {
   p {
     color: #414141;
     margin-top: 13px;
-    @include sm{
+    @include sm {
       font-size: 10px;
     }
   }
